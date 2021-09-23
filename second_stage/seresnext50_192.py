@@ -17,8 +17,6 @@ from random import randrange
 from sklearn.metrics import roc_auc_score, log_loss
 numSeed = randrange(2500)
 
-# https://www.kaggle.com/bminixhofer/a-validation-framework-impact-of-the-random-seed
-
 def computeAUROC(dataGT, dataPRED, classCount):
     outAUROC = []
     for i in range(classCount):
@@ -177,95 +175,95 @@ with open('../process_input/split2/series_dict.pickle', 'rb') as f:
 
 ## Loading Features
 if backboneName == "resnet18":
-    feature_train = np.load('../seresnet50/TransferLearning_resnet18_ImageNet_576_v206_/feature_train.npy')
-    feature_valid = np.load('../seresnet50/TransferLearning_resnet18_ImageNet_576_v206_/feature_valid.npy')
+    feature_train = np.load('../numpyFiles/TransferLearning_resnet18_ImageNet_576_v206_/feature_train.npy')
+    feature_valid = np.load('../numpyFilesnumpyFiles/TransferLearning_resnet18_ImageNet_576_v206_/feature_valid.npy')
     titleName = "resnet18_512"
     featureSize = 512
 elif backboneName == "resnet50":
     if featureMode == 1:
         # Pre-trained from ImageNet
         if ssl_method_name == " ":
-            feature_train = np.load('../seresnet50/TransferLearning_resnet50_ImageNet_576_v102_/feature_train.npy')
-            feature_valid = np.load('../seresnet50/TransferLearning_resnet50_ImageNet_576_v102_/feature_valid.npy')
+            feature_train = np.load('../numpyFiles/TransferLearning_resnet50_ImageNet_576_v102_/feature_train.npy')
+            feature_valid = np.load('../numpyFiles/TransferLearning_resnet50_ImageNet_576_v102_/feature_valid.npy')
             titleName = "resnet50_2048_FT"
 
         # Pre-trained from SSL method
         if ssl_method_name == "sela-v2":
-            feature_train = np.load('../seresnet50/BestModels_100percent_TrainData/FineTune_TrainData_100_resnet50_sela-v2_576_v110_/feature_train.npy')
-            feature_valid = np.load('../seresnet50/BestModels_100percent_TrainData/FineTune_TrainData_100_resnet50_sela-v2_576_v110_/feature_valid.npy')
+            feature_train = np.load('../numpyFiles/BestModels_100percent_TrainData/FineTune_TrainData_100_resnet50_sela-v2_576_v110_/feature_train.npy')
+            feature_valid = np.load('../numpyFiles/BestModels_100percent_TrainData/FineTune_TrainData_100_resnet50_sela-v2_576_v110_/feature_valid.npy')
             titleName = "resnet50_SSL_selav2_2048_FT"
         elif ssl_method_name == "deepcluster-v2":
-            feature_train = np.load('../seresnet50/BestModels_100percent_TrainData/FineTune_TrainData_100_resnet50_deepcluster-v2_576_v110_/feature_train.npy')
-            feature_valid = np.load('../seresnet50/BestModels_100percent_TrainData/FineTune_TrainData_100_resnet50_deepcluster-v2_576_v110_/feature_valid.npy')  
+            feature_train = np.load('../numpyFiles/BestModels_100percent_TrainData/FineTune_TrainData_100_resnet50_deepcluster-v2_576_v110_/feature_train.npy')
+            feature_valid = np.load('../numpyFiles/BestModels_100percent_TrainData/FineTune_TrainData_100_resnet50_deepcluster-v2_576_v110_/feature_valid.npy')  
             titleName = "resnet50_SSL_deepclusterv2_2048_FT"
         elif ssl_method_name == "barlowtwins":
-            feature_train = np.load('../seresnet50/BestModels_100percent_TrainData/FineTune_TrainData_100_resnet50_barlowtwins_576_v106_/feature_train.npy')
-            feature_valid = np.load('../seresnet50/BestModels_100percent_TrainData/FineTune_TrainData_100_resnet50_barlowtwins_576_v106_/feature_valid.npy')             
+            feature_train = np.load('../numpyFiles/BestModels_100percent_TrainData/FineTune_TrainData_100_resnet50_barlowtwins_576_v106_/feature_train.npy')
+            feature_valid = np.load('../numpyFiles/BestModels_100percent_TrainData/FineTune_TrainData_100_resnet50_barlowtwins_576_v106_/feature_valid.npy')             
             titleName = "resnet50_SSL_barlowtwins_2048_FT"
     else:
         # Pre-trained from SSL method
         if ssl_method_name == "sela-v2":
-            feature_train = np.load('../seresnet50/nonFineTuned_100percent_TrainData/FineTune_Reduced_100_resnet50_576_sela-v2_SSL_FT_v101_/feature_train.npy')
-            feature_valid = np.load('../seresnet50/nonFineTuned_100percent_TrainData/FineTune_Reduced_100_resnet50_576_sela-v2_SSL_FT_v101_/feature_valid.npy')
+            feature_train = np.load('../numpyFiles/nonFineTuned_100percent_TrainData/FineTune_Reduced_100_resnet50_576_sela-v2_SSL_FT_v101_/feature_train.npy')
+            feature_valid = np.load('../numpyFiles/nonFineTuned_100percent_TrainData/FineTune_Reduced_100_resnet50_576_sela-v2_SSL_FT_v101_/feature_valid.npy')
             titleName = "resnet50_SSL_selav2_2048_nonFT"
         elif ssl_method_name == "deepcluster-v2":
-            feature_train = np.load('../seresnet50/nonFineTuned_100percent_TrainData/FineTune_Reduced_100_resnet50_576_deepcluster-v2_SSL_FT_v101_/feature_train.npy')
-            feature_valid = np.load('../seresnet50/nonFineTuned_100percent_TrainData/FineTune_Reduced_100_resnet50_576_deepcluster-v2_SSL_FT_v101_/feature_valid.npy')
+            feature_train = np.load('../numpyFiles/nonFineTuned_100percent_TrainData/FineTune_Reduced_100_resnet50_576_deepcluster-v2_SSL_FT_v101_/feature_train.npy')
+            feature_valid = np.load('../numpyFiles/nonFineTuned_100percent_TrainData/FineTune_Reduced_100_resnet50_576_deepcluster-v2_SSL_FT_v101_/feature_valid.npy')
             titleName = "resnet50_SSL_deepclusterv2_2048_nonFT"  
         elif ssl_method_name == "barlowtwins":                    
-            feature_train = np.load('../seresnet50/nonFineTuned_100percent_TrainData/FineTune_Reduced_100_resnet50_576_barlowtwins_SSL_FT_v101_/feature_train.npy')
-            feature_valid = np.load('../seresnet50/nonFineTuned_100percent_TrainData/FineTune_Reduced_100_resnet50_576_barlowtwins_SSL_FT_v101_/feature_valid.npy') 
+            feature_train = np.load('../numpyFiles/nonFineTuned_100percent_TrainData/FineTune_Reduced_100_resnet50_576_barlowtwins_SSL_FT_v101_/feature_train.npy')
+            feature_valid = np.load('../numpyFiles/nonFineTuned_100percent_TrainData/FineTune_Reduced_100_resnet50_576_barlowtwins_SSL_FT_v101_/feature_valid.npy') 
             titleName = "resnet50_SSL_barlowtwins_2048_nonFT"
     featureSize = 2048
 elif backboneName == "xception":
     if featureMode == 1:
-        # feature_train = np.load('../seresnet50/TransferLearning_xception_ImageNet_576_v304_/feature_train.npy')
-        # feature_valid = np.load('../seresnet50/TransferLearning_xception_ImageNet_576_v304_/feature_valid.npy')
-        feature_train = np.load('../seresnet50/BestModels_100percent_TrainData/FineTune_Reduced_100_xception_576_ImageNet_v1005_/feature_train.npy')
-        feature_valid = np.load('../seresnet50/BestModels_100percent_TrainData/FineTune_Reduced_100_xception_576_ImageNet_v1005_/feature_valid.npy')
+        # feature_train = np.load('../numpyFiles/TransferLearning_xception_ImageNet_576_v304_/feature_train.npy')
+        # feature_valid = np.load('../numpyFiles/TransferLearning_xception_ImageNet_576_v304_/feature_valid.npy')
+        feature_train = np.load('../numpyFiles/BestModels_100percent_TrainData/FineTune_Reduced_100_xception_576_ImageNet_v1005_/feature_train.npy')
+        feature_valid = np.load('../numpyFiles/BestModels_100percent_TrainData/FineTune_Reduced_100_xception_576_ImageNet_v1005_/feature_valid.npy')
         titleName = "xception_2048_ME"
     else:
-        feature_train = np.load('../seresnet50/nonFineTuned_100percent_TrainData/FineTune_Reduced_100_xception_576_ImageNet_vnonFT_101_/feature_train.npy')
-        feature_valid = np.load('../seresnet50/nonFineTuned_100percent_TrainData/FineTune_Reduced_100_xception_576_ImageNet_vnonFT_101_/feature_valid.npy') 
+        feature_train = np.load('../numpyFiles/nonFineTuned_100percent_TrainData/FineTune_Reduced_100_xception_576_ImageNet_vnonFT_101_/feature_train.npy')
+        feature_valid = np.load('../numpyFiles/nonFineTuned_100percent_TrainData/FineTune_Reduced_100_xception_576_ImageNet_vnonFT_101_/feature_valid.npy') 
         titleName = "xception_2048_nonFT"
     featureSize = 2048
 elif backboneName == "densenet121":
-    feature_train = np.load('../seresnet50/TransferLearning_densenet121_ImageNet_576_v406_/feature_train.npy')
-    feature_valid = np.load('../seresnet50/TransferLearning_densenet121_ImageNet_576_v406_/feature_valid.npy')
+    feature_train = np.load('../numpyFiles/TransferLearning_densenet121_ImageNet_576_v406_/feature_train.npy')
+    feature_valid = np.load('../numpyFiles/TransferLearning_densenet121_ImageNet_576_v406_/feature_valid.npy')
     titleName = "densenet121_1024"
     featureSize = 1024
 elif backboneName == "seresnext50":
     if featureMode == 1:
-        # feature_train = np.load('../seresnet50/TransferLearning_seresnext50_ImageNet_576_v004_/feature_train.npy')
-        # feature_valid = np.load('../seresnet50/TransferLearning_seresnext50_ImageNet_576_v004_/feature_valid.npy')
-        feature_train = np.load('../seresnet50/BestModels_100percent_TrainData/FineTune_Reduced_100_seresnext50_576_ImageNet_v1004_/feature_train.npy')
-        feature_valid = np.load('../seresnet50/BestModels_100percent_TrainData/FineTune_Reduced_100_seresnext50_576_ImageNet_v1004_/feature_valid.npy')
+        # feature_train = np.load('../numpyFiles/TransferLearning_seresnext50_ImageNet_576_v004_/feature_train.npy')
+        # feature_valid = np.load('../numpyFiles/TransferLearning_seresnext50_ImageNet_576_v004_/feature_valid.npy')
+        feature_train = np.load('../numpyFiles/BestModels_100percent_TrainData/FineTune_Reduced_100_seresnext50_576_ImageNet_v1004_/feature_train.npy')
+        feature_valid = np.load('../numpyFiles/BestModels_100percent_TrainData/FineTune_Reduced_100_seresnext50_576_ImageNet_v1004_/feature_valid.npy')
         titleName = "seresnext50_2048_ME"
     else:
-        feature_train = np.load('../seresnet50/nonFineTuned_100percent_TrainData/FineTune_Reduced_100_seresnext50_576_ImageNet_vnonFT_101_/feature_train.npy')
-        feature_valid = np.load('../seresnet50/nonFineTuned_100percent_TrainData/FineTune_Reduced_100_seresnext50_576_ImageNet_vnonFT_101_/feature_valid.npy')    
+        feature_train = np.load('../numpyFiles/nonFineTuned_100percent_TrainData/FineTune_Reduced_100_seresnext50_576_ImageNet_vnonFT_101_/feature_train.npy')
+        feature_valid = np.load('../numpyFiles/nonFineTuned_100percent_TrainData/FineTune_Reduced_100_seresnext50_576_ImageNet_vnonFT_101_/feature_valid.npy')    
         titleName = "seresnext50_2048_nonFT"    
     featureSize = 2048
 elif backboneName == "sexception":
     if featureMode == 1:
-        # feature_train = np.load("../seresnet50/BestModels_100percent_TrainData/FineTune_Reduced_100_sexception_manual_576_ImageNet_v1005_/feature_train.npy")
-        # feature_valid = np.load("../seresnet50/BestModels_100percent_TrainData/FineTune_Reduced_100_sexception_manual_576_ImageNet_v1005_/feature_valid.npy")
+        # feature_train = np.load("../numpyFiles/BestModels_100percent_TrainData/FineTune_Reduced_100_sexception_manual_576_ImageNet_v1005_/feature_train.npy")
+        # feature_valid = np.load("../numpyFiles/BestModels_100percent_TrainData/FineTune_Reduced_100_sexception_manual_576_ImageNet_v1005_/feature_valid.npy")
 
-        # feature_train = np.load("../seresnet50/BestModels_100percent_TrainData/FineTune_Reduced_100_sexception_576_ImageNet_v1007_/feature_train.npy")
-        # feature_valid = np.load("../seresnet50/BestModels_100percent_TrainData/FineTune_Reduced_100_sexception_576_ImageNet_v1007_/feature_valid.npy")
+        # feature_train = np.load("../numpyFiles/BestModels_100percent_TrainData/FineTune_Reduced_100_sexception_576_ImageNet_v1007_/feature_train.npy")
+        # feature_valid = np.load("../numpyFiles/BestModels_100percent_TrainData/FineTune_Reduced_100_sexception_576_ImageNet_v1007_/feature_valid.npy")
 
-        feature_train = np.load("../seresnet50/BestModels_100percent_TrainData/FineTune_Reduced_100_sexception_576_ImageNet_v1403_/feature_train.npy")
-        feature_valid = np.load("../seresnet50/BestModels_100percent_TrainData/FineTune_Reduced_100_sexception_576_ImageNet_v1403_/feature_valid.npy")
+        feature_train = np.load("../numpyFiles/BestModels_100percent_TrainData/FineTune_Reduced_100_sexception_576_ImageNet_v1403_/feature_train.npy")
+        feature_valid = np.load("../numpyFiles/BestModels_100percent_TrainData/FineTune_Reduced_100_sexception_576_ImageNet_v1403_/feature_valid.npy")
         titleName = "sexception_2048_ME"
     else:
-        feature_train = np.load('../seresnet50/nonFineTuned_100percent_TrainData/FineTune_Reduced_100_sexception_576_ImageNet_vnonFT_101_/feature_train.npy')
-        feature_valid = np.load('../seresnet50/nonFineTuned_100percent_TrainData/FineTune_Reduced_100_sexception_576_ImageNet_vnonFT_101_/feature_valid.npy')  
+        feature_train = np.load('../numpyFiles/nonFineTuned_100percent_TrainData/FineTune_Reduced_100_sexception_576_ImageNet_vnonFT_101_/feature_train.npy')
+        feature_valid = np.load('../numpyFiles/nonFineTuned_100percent_TrainData/FineTune_Reduced_100_sexception_576_ImageNet_vnonFT_101_/feature_valid.npy')  
         titleName = "sexception_2048_nonFT"
     featureSize = 2048
 elif backboneName == "seresnext101":
     if featureMode == 1:
-        feature_train = np.load("../seresnet50/BestModels_100percent_TrainData/FineTune_TrainData_100_seresnext101_ImageNet_576_v1805_/feature_train.npy")
-        feature_valid = np.load("../seresnet50/BestModels_100percent_TrainData/FineTune_TrainData_100_seresnext101_ImageNet_576_v1805_/feature_valid.npy")
+        feature_train = np.load("../numpyFiles/BestModels_100percent_TrainData/FineTune_TrainData_100_seresnext101_ImageNet_576_v1805_/feature_train.npy")
+        feature_valid = np.load("../numpyFiles/BestModels_100percent_TrainData/FineTune_TrainData_100_seresnext101_ImageNet_576_v1805_/feature_valid.npy")
         titleName = "seresnext101_2048_FT"
     featureSize = 2048
 
