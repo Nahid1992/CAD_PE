@@ -13,20 +13,29 @@ International Conference on Medical Image Computing and Computer Assisted Interv
 
 ## Major results from our work
 **1. Transfer learning improves the performance despite modality difference between datasets**
+<p align="left">
 <img src="https://github.com/Nahid1992/CAD_PE/blob/main/figures/Backbone_Random_vs_ImageNet.jpg" width=70% height=70%>
+</p>
 
 **2. Squeeze & excitation blocks enhance CNN performance**
-<img src="https://github.com/Nahid1992/CAD_PE/blob/main/figures/Backbone_w_o_SEblock.jpg" width=60% height=60%>
-
+<p align="left">
+<img src="https://github.com/Nahid1992/CAD_PE/blob/main/figures/Backbone_w_o_SEblock.jpg" width=40% height=40%>
+</p>
+ 
 **3. Transfer learning with self-supervised methods performs better than supervised model**
+<p align="left">
 <img src="https://github.com/Nahid1992/CAD_PE/blob/main/figures/Backbone_ResNet50_SSL.jpg" width=70% height=70%>
+</p>
 
 **4. Vision transformer performs inferiorly compared with CNN**
-<img src="https://github.com/Nahid1992/CAD_PE/blob/main/figures/ViT-B.jpg" width=65% height=65%>
-
+<p align="left">
+<img src="https://github.com/Nahid1992/CAD_PE/blob/main/figures/ViT-B.jpg" width=45% height=45%>
+</p>
+ 
 **5. Conventional classification (CC)  marginally outperforms the Multiple instance learning (MIL) for exam-level data**
-<img src="https://github.com/Nahid1992/CAD_PE/blob/main/figures/2ndStage_PE_Exam_CCvsMIL.jpg" width=65% height=65%>
-
+<p align="left">
+<img src="https://github.com/Nahid1992/CAD_PE/blob/main/figures/2ndStage_PE_Exam_CCvsMIL.jpg" width=45% height=45%>
+</p>
 
 ## Data organization and preprocessing steps
 This framework was built on top of the first place solution. The necessary data organization as well as the preprocessing steps can be found [here](https://github.com/GuanshuoXu/RSNA-STR-Pulmonary-Embolism-Detection).
