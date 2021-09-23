@@ -29,6 +29,8 @@ International Conference on Medical Image Computing and Computer Assisted Interv
 ## Data organization and preprocessing steps
 This framework was built on top of the first place solution. The necessary data organization as well as the preprocessing steps can be found [here](https://github.com/GuanshuoXu/RSNA-STR-Pulmonary-Embolism-Detection).
 
+## SeXception pre-trained weights
+Insprired from SeResNet50 and SeResNext50, we added squeeze and excitation (SE) block to Xception architecture and pre-trained it on ImageNet dataset. The pre-trained SeXception model can be found [here](https://drive.google.com/file/d/128gkASApEH3mbBJ1ohwU9CRlw1oH9cHO/view?usp=sharing).
 
 ## Citation
 If you use this code or use our pre-trained weights for your research, please cite our paper:
