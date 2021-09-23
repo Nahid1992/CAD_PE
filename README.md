@@ -19,7 +19,7 @@ International Conference on Medical Image Computing and Computer Assisted Interv
 
 **2. Squeeze & excitation blocks enhance CNN performance**
 <p align="left">
-<img src="https://github.com/Nahid1992/CAD_PE/blob/main/figures/Backbone_w_o_SEblock.jpg" width=40% height=40%>
+<img src="https://github.com/Nahid1992/CAD_PE/blob/main/figures/Backbone_w_o_SEblock.jpg" width=70% height=70%>
 </p>
  
 **3. Transfer learning with self-supervised methods performs better than supervised model**
@@ -29,12 +29,12 @@ International Conference on Medical Image Computing and Computer Assisted Interv
 
 **4. Vision transformer performs inferiorly compared with CNN**
 <p align="left">
-<img src="https://github.com/Nahid1992/CAD_PE/blob/main/figures/ViT-B.jpg" width=45% height=45%>
+<img src="https://github.com/Nahid1992/CAD_PE/blob/main/figures/ViT-B.jpg" width=70% height=70%>
 </p>
  
 **5. Conventional classification (CC)  marginally outperforms the Multiple instance learning (MIL) for exam-level data**
 <p align="left">
-<img src="https://github.com/Nahid1992/CAD_PE/blob/main/figures/2ndStage_PE_Exam_CCvsMIL.jpg" width=45% height=45%>
+<img src="https://github.com/Nahid1992/CAD_PE/blob/main/figures/2ndStage_PE_Exam_CCvsMIL.jpg" width=70% height=70%>
 </p>
 
 ## Data organization and preprocessing steps
