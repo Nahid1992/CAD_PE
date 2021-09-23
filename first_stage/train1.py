@@ -1,7 +1,3 @@
-# python -m torch.distributed.launch --nproc_per_node=1 train1_ResNet50.py --train_task=1 --val_task=0 --manual_load=0 --backboneName resnet50 --runV _v101_ --loadW ImageNet --redu 100 --BS 32 --numGPU 1
-# python train1_ResNet50.py --train_task=0 --val_task=1 --manual_load=1 --backboneName resnet50 --runV _v101_ --loadW ImageNet --redu 100 --BS 32 --numGPU 1
-
-# BridgeAI
 import argparse
 import numpy as np
 import pandas as pd
@@ -32,8 +28,8 @@ import time
 from model_pytorch import Classifier_model, get_weight_name, ProgressMeter, save_checkpoint
 numSeed = randrange(25000)
 
-# DATA_DIR = '/data/jliang12/zzhou82/holy_grail/rsnastr20/train/'  # Agave
-DATA_DIR = '/ocean/projects/bcs190005p/nahid92/Data/RSNA_PE/train/'  # Bridge
+# DATA_DIR = ' ' 
+DATA_DIR = ' '  
 
 class AverageMeter(object):
     """Computes and stores the average and current value"""
