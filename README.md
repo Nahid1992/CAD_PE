@@ -2,6 +2,8 @@
 <!-- # Seeking an Optimal Approach for Computer-aided Pulmonary Embolism Detection -->
 Pulmonary embolism (PE) represents a blood clot that travels to the blood vessels in the lung, causing vascular obstruction, and in some patients, death. CT pulmonary angiography (CTPA), is the most common type of medical imaging to evaluate patients with suspected PE. These CT scans consist of hundreds of images that require detailed review to identify clots within the pulmonary arteries. Recent research in deep learning across academia and industry produced numerous architectures, various model initialization, and distinct learning paradigms. It has resulted in many competing approaches to CAD implementation in medical imaging and produced great confusion in the CAD community. we have conducted extensive experiments with various deep learning methods applicable for PE diagnosis at both slice and exam levels using the [RSNA PE dataset](https://www.kaggle.com/c/rsna-str-pulmonary-embolism-detection/overview).
  
+ ![](https://github.com/Nahid1992/CAD_PE/blob/main/figures/Workflow.png)
+ 
 ## Publication
 **Seeking an Optimal Approach for Computer-aided Pulmonary Embolism Detection** <br/><br/>
 Nahid Ul Islam<sup>1</sup>, Shiv Gehlot<sup>1</sup>, Zongwei Zhou<sup>1</sup>, Michael B Gotway<sup>2</sup>, and Jianming Liang<sup>1</sup><br/>
