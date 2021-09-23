@@ -6,7 +6,7 @@ Pulmonary embolism (PE) represents a blood clot that travels to the blood vessel
  
 ## Publication
 **Seeking an Optimal Approach for Computer-aided Pulmonary Embolism Detection** <br/><br/>
-[Nahid Ul Islam](https://github.com/Nahid1992)<sup>1</sup>, [Shiv Gehlot](https://shivgahlout.github.io/)<sup>1</sup>, [Zongwei Zhou](https://github.com/MrGiovanni)<sup>1</sup>, Michael B Gotway[https://www.mayoclinic.org/biographies/gotway-michael-b-m-d/bio-20055566](https://www.mayoclinic.org/biographies/gotway-michael-b-m-d/bio-20055566)<sup>2</sup>, and [Jianming Liang](https://chs.asu.edu/jianming-liang)<sup>1</sup><br/>
+[Nahid Ul Islam](https://github.com/Nahid1992)<sup>1</sup>, [Shiv Gehlot](https://shivgahlout.github.io/)<sup>1</sup>, [Zongwei Zhou](https://github.com/MrGiovanni)<sup>1</sup>, [Michael B Gotway](https://www.mayoclinic.org/biographies/gotway-michael-b-m-d/bio-20055566)<sup>2</sup>, and [Jianming Liang](https://chs.asu.edu/jianming-liang)<sup>1</sup><br/>
 <sup>1</sup>Arizona State University, <sup>2</sup>Mayo Clinic<br/>
 International Conference on Medical Image Computing and Computer Assisted Intervention ([MICCAI 2021](https://www.miccai2021.org/)); Machine Learning in Medical Imaging ([MLMI2021](https://sites.google.com/view/mlmi2021/))<br/>
 [Paper](https://arxiv.org/pdf/2109.07029.pdf) | [Graphical Abstract](https://github.com/Nahid1992/CAD_PE/blob/main/figures/MLMI2021_Graphical_abstract_v7.pdf) | [Poster](https://github.com/Nahid1992/CAD_PE/blob/main/figures/MLMI2021_PE_Poster_v6.pdf) | [Code](https://github.com/jlianglab/CAD_PE_Detection) | [Presentation](https://github.com/Nahid1992/CAD_PE/blob/main/figures/MLMI2021_Presentation__.pdf)
