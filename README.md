@@ -26,6 +26,10 @@ International Conference on Medical Image Computing and Computer Assisted Interv
 <img src="https://github.com/Nahid1992/CAD_PE/blob/main/figures/2ndStage_PE_Exam_CCvsMIL.jpg" width=65% height=65%>
 
 
+## Data organization and preprocessing steps
+This framework was built on top of the first place solution. The necessary data organization as well as the preprocessing steps can be found [here](https://github.com/GuanshuoXu/RSNA-STR-Pulmonary-Embolism-Detection).
+
+
 ## Citation
 If you use this code or use our pre-trained weights for your research, please cite our paper:
 
