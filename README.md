@@ -1,7 +1,7 @@
-<!-- ![CAD_PE](http:https://github.com/jlianglab/CAD_PE_Detection/blob/main/images/Tittle_Logo.png) -->
-# Seeking an Optimal Approach for Computer-aided Pulmonary Embolism Detection
-
-
+![](https://github.com/Nahid1992/CAD_PE/blob/main/figures/Tittle_Logo.png)
+<!-- # Seeking an Optimal Approach for Computer-aided Pulmonary Embolism Detection -->
+Pulmonary embolism (PE) represents a blood clot that travels to the blood vessels in the lung, causing vascular obstruction, and in some patients, death. CT pulmonary angiography (CTPA), is the most common type of medical imaging to evaluate patients with suspected PE. These CT scans consist of hundreds of images that require detailed review to identify clots within the pulmonary arteries. Recent research in deep learning across academia and industry produced numerous architectures, various model initialization, and distinct learning paradigms. It has resulted in many competing approaches to CAD implementation in medical imaging and produced great confusion in the CAD community. we have conducted extensive experiments with various deep learning methods applicable for PE diagnosis at both slice and exam levels using the [RSNA PE dataset](https://www.kaggle.com/c/rsna-str-pulmonary-embolism-detection/overview).
+ 
 ## Publication
 **Seeking an Optimal Approach for Computer-aided Pulmonary Embolism Detection** <br/>
 Nahid Ul Islam<sup>1</sup>, Shiv Gehlot<sup>1</sup>, Zongwei Zhou<sup>1</sup>, Michael B Gotway<sup>2</sup>, and Jianming Liang<sup>1</sup><br/>
@@ -11,14 +11,19 @@ International Conference on Medical Image Computing and Computer Assisted Interv
 
 ## Major results from our work
 **1. Transfer learning improves the performance despite modality difference between datasets**
+![](https://github.com/Nahid1992/CAD_PE/blob/main/figures/Backbone_Random_vs_ImageNet.jpg)
 
 **2. Squeeze & excitation blocks enhance CNN performance**
+![](https://github.com/Nahid1992/CAD_PE/blob/main/figures/Backbone_w_o_SEblock.jpg)
 
 **3. Transfer learning with self-supervised methods performs better than supervised model**
+![](https://github.com/Nahid1992/CAD_PE/blob/main/figures/Backbone_ResNet50_SSL.jpg)
 
 **4. Vision transformer performs inferiorly compared with CNN**
+![](https://github.com/Nahid1992/CAD_PE/blob/main/figures/ViT-B.jpg)
 
 **5. Conventional classification (CC)  marginally outperforms the Multiple instance learning (MIL) for exam-level data**
+![](https://github.com/Nahid1992/CAD_PE/blob/main/figures/2ndStage_PE_Exam_CCvsMIL.jpg)
 
 
 ## Citation
