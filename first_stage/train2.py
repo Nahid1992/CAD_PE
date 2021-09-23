@@ -30,8 +30,8 @@ import time
 from model_pytorch import Classifier_model, get_weight_name, ProgressMeter, save_checkpoint
 numSeed = randrange(25000)
 
-DATA_DIR = '/ocean/projects/bcs190005p/nahid92/Data/RSNA_PE/train/'  # Bridge
-# DATA_DIR = '/mnt/dataset/shared/zguo32/rsna-pe-detection/train/'
+DATA_DIR = ' '  
+# DATA_DIR = ' '
 
 def get_weight_name_from(number):
     if number == 0:
@@ -413,8 +413,6 @@ class seresnext101(nn.Module):
 
 
 def main():
-    # python -m torch.distributed.launch --nproc_per_node=4 train0_SeResNet50.py --train_task=1 --val_task=0 --manual_load=0 --backboneName seresnext50 --runV _v001_
-    # python train0_SeResNet50.py --train_task=0 --val_task=1 --manual_load=1 --backboneName seresnext50 --runV _v001_
     start_time = time.time()
 
     parser = argparse.ArgumentParser()
