@@ -47,7 +47,7 @@ Insprired from SeResNet50 and SeResNext50, we added squeeze and excitation (SE) 
 If you use this code or use our pre-trained weights for your research, please cite our paper:
 
 ```
-@article{islam2021seeking,
+@misc{islam2021seeking,
   title={Seeking an Optimal Approach for Computer-Aided Pulmonary Embolism Detection},
   author={Islam, Nahid Ul and Gehlot, Shiv and Zhou, Zongwei and Gotway, Michael B and Liang, Jianming},
   journal={arXiv preprint arXiv:2109.07029},
