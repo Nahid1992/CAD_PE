@@ -16,7 +16,7 @@ International Conference on Medical Image Computing and Computer Assisted Interv
 <img src="https://github.com/Nahid1992/CAD_PE/blob/main/figures/Backbone_Random_vs_ImageNet.jpg" width=70% height=70%>
 
 **2. Squeeze & excitation blocks enhance CNN performance**
-<img src="https://github.com/Nahid1992/CAD_PE/blob/main/figures/Backbone_w_o_SEblock.jpg" width=65% height=65%>
+<img src="https://github.com/Nahid1992/CAD_PE/blob/main/figures/Backbone_w_o_SEblock.jpg" width=60% height=60%>
 
 **3. Transfer learning with self-supervised methods performs better than supervised model**
 <img src="https://github.com/Nahid1992/CAD_PE/blob/main/figures/Backbone_ResNet50_SSL.jpg" width=70% height=70%>
