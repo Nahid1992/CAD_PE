@@ -6,7 +6,7 @@ Pulmonary embolism (PE) represents a blood clot that travels to the blood vessel
 **Seeking an Optimal Approach for Computer-aided Pulmonary Embolism Detection** <br/>
 Nahid Ul Islam<sup>1</sup>, Shiv Gehlot<sup>1</sup>, Zongwei Zhou<sup>1</sup>, Michael B Gotway<sup>2</sup>, and Jianming Liang<sup>1</sup><br/>
 <sup>1</sup>Arizona State University, <sup>2</sup>Mayo Clinic<br/>
-International Conference on Medical Image Computing and Computer Assisted Intervention ([MICCAI 2021](https://www.miccai2021.org/)); Machine Learning in Medical Imaging (MLMI)<br/>
+International Conference on Medical Image Computing and Computer Assisted Intervention ([MICCAI 2021](https://www.miccai2021.org/)); Machine Learning in Medical Imaging ([MLMI](https://sites.google.com/view/mlmi2021/))<br/>
 [Paper](https://arxiv.org/pdf/2109.07029.pdf) | [Poster]() | [Code](https://github.com/jlianglab/CAD_PE_Detection) | [Presentation]()
 
 ## Major results from our work
