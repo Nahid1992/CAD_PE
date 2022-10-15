@@ -59,5 +59,5 @@ If you use this code or use our pre-trained weights for your research, please ci
 This research has been supported partially by ASU and Mayo Clinic through a Seed Grant and an Innovation Grant, and partially by the NIH under Award Number R01HL128785.  The content is solely the responsibility of the authors and does not necessarily represent the official views of the NIH. This work has utilized the GPUs provided partially by the ASU Research Computing and partially by the Extreme Science and Engineering Discovery Environment (XSEDE) funded by the National Science Foundation (NSF) under grant number ACI-1548562. We thank Ruibin Feng for aggregating 14 self-supervised pre-trained models. The content of this paper is covered by patents pending.
 
 ## License
-Released under the [ASU GitHub Project License](https://github.com/jlianglab/CAD_PE_Detection/blob/main/LICENSE)
+Released under the [ASU GitHub Project License](https://github.com/Nahid1992/CAD_PE/blob/main/LICENSE)
 
