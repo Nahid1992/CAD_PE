@@ -45,6 +45,11 @@ International Conference on Medical Image Computing and Computer Assisted Interv
 <img src="https://github.com/Nahid1992/CAD_PE/blob/main/figures/EViTResults.jpg" width=70% height=70%>
 </p>
 
+**6. Vessel-oriented image representation and self-supervised pre-training both enhance performance for PE false positive reduction across image dimensions.**
+<p align="left">
+<img src="https://github.com/Nahid1992/CAD_PE/blob/main/figures/VOIR_Results.jpg" width=70% height=70%>
+</p>
+
 ## Data organization and preprocessing steps
 This framework was built on top of the first place solution. The necessary data organization as well as the preprocessing steps can be found [here](https://github.com/GuanshuoXu/RSNA-STR-Pulmonary-Embolism-Detection).
 
