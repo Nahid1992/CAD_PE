@@ -21,7 +21,7 @@ Medical Image Analysis (MedIA)<br/>
 ## Major results from our work
 **1. Transfer learning improves the performance despite modality difference between datasets**
 <p align="left">
-<img src="https://github.com/Nahid1992/CAD_PE/blob/main/figures/Backbone_Random_vs_ImageNet.jpg" width=70% height=70%>
+<img src="https://github.com/Nahid1992/CAD_PE/blob/main/figures/J_Backbone_Random_vs_ImageNet_v3.jpg" width=70% height=70%>
 </p>
 
 **2. Squeeze & excitation blocks enhance CNN performance**
