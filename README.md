@@ -11,6 +11,12 @@ Pulmonary embolism (PE) represents a blood clot that travels to the blood vessel
 International Conference on Medical Image Computing and Computer Assisted Intervention ([MICCAI 2021](https://www.miccai2021.org/)); Machine Learning in Medical Imaging ([MLMI2021](https://sites.google.com/view/mlmi2021/))<br/>
 [Paper](https://arxiv.org/pdf/2109.07029.pdf) | [Graphical Abstract](https://github.com/Nahid1992/CAD_PE/blob/main/figures/MLMI2021_Graphical_abstract.pdf) | [Poster](https://github.com/Nahid1992/CAD_PE/blob/main/figures/MLMI2021_PE_Poster.pdf) | [Code](https://github.com/Nahid1992/CAD_PE) | [Slides](https://github.com/Nahid1992/CAD_PE/blob/main/figures/MLMI2021_Presentation.pdf) | [Presentation](https://youtu.be/LivPIQ0D0-g)
 
+**Seeking an Optimal Approach for Computer-aided Diagnosis of Pulmonary Embolism** <br/><br/>
+[Nahid Ul Islam](https://github.com/Nahid1992)<sup>1</sup>, [Zongwei Zhou](https://github.com/MrGiovanni)<sup>1</sup>, [Shiv Gehlot](https://github.com/shivgahlout)<sup>1</sup>, [Michael B Gotway](https://www.mayoclinic.org/biographies/gotway-michael-b-m-d/bio-20055566)<sup>2</sup>, and [Jianming Liang](https://chs.asu.edu/jianming-liang)<sup>1</sup><br/>
+<sup>1</sup>Arizona State University, <sup>2</sup>Mayo Clinic<br/>
+Medical Image Analysis (MedIA)<br/>
+
+
 ## Major results from our work
 **1. Transfer learning improves the performance despite modality difference between datasets**
 <p align="left">
