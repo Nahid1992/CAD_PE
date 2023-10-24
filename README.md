@@ -34,11 +34,6 @@ Medical Image Analysis (MedIA)<br/>
 <img src="https://github.com/Nahid1992/CAD_PE/blob/main/figures/J_Backbone_ResNet50_SSL.jpg" width=70% height=70%>
 </p>
 
-#**4. Transformer-based models demonstrate comparable performance but slower convergence compared with CNNs for slice-level PE classification**
-#<p align="left">
-#<img src="https://github.com/Nahid1992/CAD_PE/blob/main/figures/ViT-B.jpg" width=70% height=70%>
-#</p>
-
 **4. Model trained on the RSNA PE dataset demonstrates promising performance when tested on unseen datasets for slice-level PE classification**
 <p align="left">
 <img src="https://github.com/Nahid1992/CAD_PE/blob/main/figures/fig_CADPE_FUMPE_GradCam.jpg" width=70% height=70%>
