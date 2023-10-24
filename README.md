@@ -26,12 +26,12 @@ Medical Image Analysis (MedIA)<br/>
 
 **2. Squeeze & excitation blocks enhance CNN performance**
 <p align="left">
-<img src="https://github.com/Nahid1992/CAD_PE/blob/main/figures/Backbone_w_o_SEblock.jpg" width=70% height=70%>
+<img src="https://github.com/Nahid1992/CAD_PE/blob/main/figures/J_Backbone_w_o_SEblock.jpg" width=70% height=70%>
 </p>
  
 **3. Transfer learning with self-supervised methods performs better than supervised model**
 <p align="left">
-<img src="https://github.com/Nahid1992/CAD_PE/blob/main/figures/Backbone_ResNet50_SSL.jpg" width=70% height=70%>
+<img src="https://github.com/Nahid1992/CAD_PE/blob/main/figures/J_Backbone_ResNet50_SSL.jpg" width=70% height=70%>
 </p>
 
 **4. Vision transformer performs inferiorly compared with CNN**
