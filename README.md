@@ -4,7 +4,7 @@ Pulmonary embolism (PE) represents a blood clot that travels to the blood vessel
  
  ![](https://github.com/Nahid1992/CAD_PE/blob/main/figures/WorlFlow_MedIA.jpg)
  
-## Publication
+## Publications
 **Seeking an Optimal Approach for Computer-aided Pulmonary Embolism Detection** <br/>
 [Nahid Ul Islam](https://github.com/Nahid1992)<sup>1</sup>, [Shiv Gehlot](https://github.com/shivgahlout)<sup>1</sup>, [Zongwei Zhou](https://github.com/MrGiovanni)<sup>1</sup>, [Michael B Gotway](https://www.mayoclinic.org/biographies/gotway-michael-b-m-d/bio-20055566)<sup>2</sup>, and [Jianming Liang](https://chs.asu.edu/jianming-liang)<sup>1</sup><br/>
 <sup>1</sup>Arizona State University, <sup>2</sup>Mayo Clinic<br/>
@@ -17,7 +17,7 @@ International Conference on Medical Image Computing and Computer Assisted Interv
 [Medical Image Analysis (MedIA)](https://www.sciencedirect.com/journal/medical-image-analysis)<br/>
 [Paper](https://www.sciencedirect.com/science/article/pii/S1361841523002487) | [Graphical Abstract](https://github.com/Nahid1992/CAD_PE/blob/main/figures/PE_Graphical_Abstract.pdf) | [Poster](https://github.com/Nahid1992/CAD_PE/blob/main/figures/MedIA_PE_Journal_v9.pdf) | [Code](https://github.com/Nahid1992/CAD_PE) | [Slides](MedIA_30mins_Presentation_v6_PDF) | [Presentation](https://www.dropbox.com/scl/fi/lkwm2dia274uf51qpobkv/MedIA_30mins_Presentation_v6.pptx?rlkey=8khn61a3zm5p7mw1kbkb1tqdz&dl=0))
 
-## Dataset
+## Datasets
 1. [RSNA PE](https://www.kaggle.com/c/rsna-str-pulmonary-embolism-detection)
 2. [CAD-PE Challenge Dataset](https://ieee-dataport.org/open-access/cad-pe)
 3. [Ferdowsi University of Mashhad's PE dataset](https://www.kaggle.com/andrewmvd/pulmonary-embolism-in-ct-images)
@@ -65,7 +65,7 @@ Insprired from SeResNet50 and SeResNext50, we added [squeeze and excitation](htt
 You can download the pretrained models used/developed in our paper from [here](https://www.dropbox.com/scl/fo/pvoafey46kwid69m9xx71/h?rlkey=0ou8zbz5zp4ubrg9p37opbq1o&dl=0).
 
 ## Citation
-If you use this code or use our pre-trained weights for your research, please cite our paper:
+If you use this code or use our pre-trained models for your research, please cite our paper:
 
 ```
 @inproceedings{islam2021seeking,
