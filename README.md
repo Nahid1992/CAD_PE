@@ -17,6 +17,11 @@ International Conference on Medical Image Computing and Computer Assisted Interv
 [Medical Image Analysis (MedIA)](https://www.sciencedirect.com/journal/medical-image-analysis)<br/>
 [Paper](https://www.sciencedirect.com/science/article/pii/S1361841523002487) | [Graphical Abstract](https://github.com/Nahid1992/CAD_PE/blob/main/figures/PE_Graphical_Abstract.pdf) | [Poster](https://github.com/Nahid1992/CAD_PE/blob/main/figures/MedIA_PE_Journal_v9.pdf) | [Code](https://github.com/Nahid1992/CAD_PE) | [Slides](MedIA_30mins_Presentation_v6_PDF) | [Presentation](https://www.dropbox.com/scl/fi/lkwm2dia274uf51qpobkv/MedIA_30mins_Presentation_v6.pptx?rlkey=8khn61a3zm5p7mw1kbkb1tqdz&dl=0))
 
+## Dataset
+1. [RSNA PE](https://www.kaggle.com/c/rsna-str-pulmonary-embolism-detection)
+2. [CAD-PE Challenge Dataset](https://ieee-dataport.org/open-access/cad-pe)
+3. [Ferdowsi University of Mashhad's PE dataset](https://www.kaggle.com/andrewmvd/pulmonary-embolism-in-ct-images)
+4. [Our in-house PE-CAD dataset](https://pubmed.ncbi.nlm.nih.gov/31416007/)
 
 ## Major results from our work
 **1. Transfer learning boosts performance despite differences between photographic images and CTPA scans**
