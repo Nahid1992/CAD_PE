@@ -68,13 +68,16 @@ You can download the pretrained models used/developed in our paper from [here](h
 If you use this code or use our pre-trained weights for your research, please cite our paper:
 
 ```
-@misc{islam2021seeking,
-  title={Seeking an Optimal Approach for Computer-Aided Pulmonary Embolism Detection},
+@inproceedings{islam2021seeking,
+  title={Seeking an optimal approach for computer-aided pulmonary embolism detection},
   author={Islam, Nahid Ul and Gehlot, Shiv and Zhou, Zongwei and Gotway, Michael B and Liang, Jianming},
-  journal={arXiv preprint arXiv:2109.07029},
-  year={2021}
+  booktitle={Machine Learning in Medical Imaging: 12th International Workshop, MLMI 2021, Held in Conjunction with MICCAI 2021, Strasbourg, France, September 27, 2021, Proceedings 12},
+  pages={692--702},
+  year={2021},
+  organization={Springer}
 }
-
+```
+```
 @article{islam2023seeking,
   title={Seeking an optimal approach for Computer-aided Diagnosis of Pulmonary Embolism},
   author={Islam, Nahid Ul and Zhou, Zongwei and Gehlot, Shiv and Gotway, Michael B and Liang, Jianming},
