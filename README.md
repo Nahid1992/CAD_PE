@@ -62,7 +62,7 @@ This framework was built on top of the first place solution. The necessary data 
 Insprired from SeResNet50 and SeResNext50, we added [squeeze and excitation](https://github.com/hujie-frank/SENet) (SE) block to Xception architecture and pre-trained it on ImageNet dataset. The pre-trained SeXception model can be found [here](https://www.dropbox.com/scl/fi/smcbb6xzmq3gsm379cvoi/sexception_imagenet_pretrainedweight.pth.tar?rlkey=nyfltetkacsexwru7m5kfejmb&dl=0).
 
 ## Pre-trained models
-You can download the pretrained models used/developed in our paper from [here](https://www.dropbox.com/scl/fo/gpe5tj0bemns4kwqfx5x2/h?rlkey=exufmulsz8zcgg39hwdrhlypt&dl=0).
+You can download the pretrained models used/developed in our paper from [here](https://www.dropbox.com/scl/fo/pvoafey46kwid69m9xx71/h?rlkey=0ou8zbz5zp4ubrg9p37opbq1o&dl=0).
 
 ## Citation
 If you use this code or use our pre-trained weights for your research, please cite our paper:
