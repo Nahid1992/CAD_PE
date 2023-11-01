@@ -74,6 +74,15 @@ If you use this code or use our pre-trained weights for your research, please ci
   journal={arXiv preprint arXiv:2109.07029},
   year={2021}
 }
+
+@article{islam2023seeking,
+  title={Seeking an optimal approach for Computer-aided Diagnosis of Pulmonary Embolism},
+  author={Islam, Nahid Ul and Zhou, Zongwei and Gehlot, Shiv and Gotway, Michael B and Liang, Jianming},
+  journal={Medical Image Analysis},
+  pages={102988},
+  year={2023},
+  publisher={Elsevier}
+}
 ```
 
 ## Acknowledgement
